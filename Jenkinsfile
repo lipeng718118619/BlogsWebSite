@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'test'
         echo '234242'
+        sh 'echo "hello world"'
       }
     }
 
